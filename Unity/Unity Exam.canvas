@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"text","text":"**Design patterns**","id":"c20436563e3b7f95","x":-680,"y":-200,"width":170,"height":56},
+		{"type":"text","text":"**Builder**","id":"d8f47adbf7595a96","x":-372,"y":-247,"width":132,"height":50},
+		{"type":"text","text":"**Singleton**","id":"e454bca4ebad36e5","x":-372,"y":-175,"width":126,"height":50},
+		{"type":"text","text":"**Abstract Factory**","id":"509c3013fa113efc","x":-373,"y":-112,"width":173,"height":50},
+		{"type":"text","text":"**Prototype**","id":"44cc751b738ecf2f","x":-372,"y":-40,"width":142,"height":50},
+		{"type":"text","text":"**Object Pool**","id":"cdafc6e851832aba","x":-372,"y":40,"width":140,"height":50},
+		{"type":"text","text":"Dependency Injection","id":"88ff74b89a90523a","x":-371,"y":120,"width":231,"height":50},
+		{"type":"text","text":"**Programming core interactions**\n- Implement and configure game object behavior and physics.\n- Implement and configure inputs and controls.\n- Implement and configure camera views and movement.","id":"b7f250dee6f47f6e","x":-934,"y":-1040,"width":304,"height":300,"color":"6"},
+		{"type":"text","text":"**Working in the art pipeline**\n- Understand materials, textures, and shaders and write scripts that interact with Unity's rendering API.\n- Understand lighting and write scripts that interact with Unity's lighting API.\n- Understand two-dimensional and three-dimensional animation and write scripts that interact with Unity's animation API.\n- Understand particle systems and effects and write scripts that interact with Unity's particle system API.","id":"7bdebfd6a1c3fa76","x":-610,"y":-1040,"width":304,"height":478,"color":"6"},
+		{"type":"text","text":"**Programming for the scene and environment design**\n- Determine scripts for implementing audio assets.\n- Identify methods for implementing game object instantiation, destruction, and management.\n- Determine scripts for pathfinding with the Unity navigation system.","id":"6bd215a7a715a8cd","x":38,"y":-1040,"width":304,"height":355,"color":"6"},
+		{"type":"text","text":"**Optimizing performance and platforms**\n- Evaluate errors and performance issues using tools such as the Unity profiler.\n- Identify optimizations to address requirements for specific build platforms and/or hardware configurations.\n- Determine common UI affordances and optimizations for XR platforms.","id":"5d21e9dd31799fb7","x":362,"y":-1040,"width":304,"height":420,"color":"6"},
+		{"type":"text","text":"**Working in professional software development teams**\n- Demonstrate knowledge of developer testing and its impact on the software development process, including the Unity profiler and traditional dubugging and testing techniques.\n- Recognize techniques for structuring scripts for modularity, readability, and reusability.","id":"23a3618c6990e0b8","x":686,"y":-1040,"width":304,"height":420,"color":"6"},
+		{"type":"text","text":"**Developing application systems**\n- Interpret scripts for application interface flow such as menu systems, UI navigation, and application settings.\n- Interpret scripts for user-controlled customization, such as character creators, inventories, storefronts, and in-app purchases.\n- Analyze scripts for user progression features, such as scoring, leveling, and in-game economies, by utilizing technologies such as Unity Analytics and PlayerPrefs.\n- Analyze scripts for two-dimensional overlays, such as Heads-Up Displays (HUDs), minimaps, and advertisements.\n- Identify scripts for saving and retrieving application and user data.\n- Recognize and evaluate the impact of networking and multiplayer functionality.","id":"53ad91565ddab115","x":-286,"y":-1040,"width":304,"height":710,"color":"6"},
+		{"type":"text","text":"**The six core objectives**\n","id":"7584940a11f2ef83","x":-114,"y":-1400,"width":304,"height":50,"color":"6"}
+	],
+	"edges":[
+		{"id":"7de708d270c6b60d","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"b7f250dee6f47f6e","toSide":"top"},
+		{"id":"71dd15f4996fca04","fromNode":"b7f250dee6f47f6e","fromSide":"top","toNode":"7584940a11f2ef83","toSide":"bottom"},
+		{"id":"ee681fcd07fa0251","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"7bdebfd6a1c3fa76","toSide":"top"},
+		{"id":"d67c09d8735bfa70","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"53ad91565ddab115","toSide":"top"},
+		{"id":"38e4f0f80e8336f7","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"6bd215a7a715a8cd","toSide":"top"},
+		{"id":"9e91c7fca9f2d10e","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"5d21e9dd31799fb7","toSide":"top"},
+		{"id":"5ec544583f06d1a3","fromNode":"7584940a11f2ef83","fromSide":"bottom","toNode":"23a3618c6990e0b8","toSide":"top"},
+		{"id":"4a1e20344749a74e","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"d8f47adbf7595a96","toSide":"left"},
+		{"id":"c9f35931ab129af4","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"e454bca4ebad36e5","toSide":"left"},
+		{"id":"6b5a408eeb7d2bc7","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"509c3013fa113efc","toSide":"left"},
+		{"id":"ec31efaf6d4ce9fd","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"44cc751b738ecf2f","toSide":"left"},
+		{"id":"15282f93b3cd8c27","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"cdafc6e851832aba","toSide":"left"},
+		{"id":"12382f2523321d11","fromNode":"c20436563e3b7f95","fromSide":"right","toNode":"88ff74b89a90523a","toSide":"left"}
+	]
+}
